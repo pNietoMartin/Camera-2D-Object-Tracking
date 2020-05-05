@@ -1,12 +1,12 @@
 # Camera-2D-Object-Tracking
 
-<img src="images/keypoints.png" width="820" height="248" />
-
 The goal of this project is to build the feature tracking part of a time-to-collision system and test various detector / descriptor combinations to see which ones perform the best. This project consists of four parts:
 
 * First, it is instanciated a `DataFrame` variable to setting the images into a ring buffer to optimize memory load. 
 * Then,it has been implemented several keypoint detectors at `matching2D_Student.cpp` such as HARRIS, FAST, BRISK and SIFT. It is an interesting exercise for the user to compare them with regard to number of keypoints identified and computational speed. 
 * To continue, it has been implemented a descriptor extraction and matching using brute force and also the FLANN approach. 
+
+<img src="images/keypoints.png" width="820" height="248" />
 
 ## Dependencies for Running Locally
 * cmake >= 2.8
